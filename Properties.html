@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="myFunctions.js"></script>
+    <script src="jquery-3.7.1.js"></script>
+
+    <title>Properties</title>
+<script>
+
+        $(document).ready(function () {
+
+            $('.in1').click(function () {
+                $('.tr1').fadeToggle(1000)
+            })
+            $('.in2').click(function () {
+                $('.tr2').fadeToggle(1000)
+            })
+            $('.in3').click(function () {
+                $('.tr3').fadeToggle(1000)
+            })
+            $('.in4').click(function () {
+                $('.tr4').fadeToggle(1000)
+            })
+            $('.in5').click(function () {
+                $('.tr5').fadeToggle(1000)
+            })
+            $('.in6').click(function () {
+                $('.tr6').fadeToggle(1000)
+            })
+            $('.in7').click(function () {
+                $('.tr7').fadeToggle(1000)
+            })
+            $('.in8').click(function () {
+                $('.tr8').fadeToggle(1000)
+            })
+            $('.in9').click(function () {
+                $('.tr9').fadeToggle(1000)
+            })
+            $('.in10').click(function () {
+                $('.tr10').fadeToggle(1000)
+            })
+            $('.btn1').click(function () {
+                $('.form').slideToggle(1000)
+            })
+        });
+    </script>
+
+</head>
+
+<body>
+    <!-- Start header -->
+    <div class="header">
+        <div class="contener">
+            <h1 class="logo">Market<span>.</span></h1>
+            <nav>
+                <ul>
+                    <li> <a href="./index.html">Home</a></li>
+                    <li> <a href="./AboutUs.html">About Us</a></li>
+                    <li> <a href="./Properties.html"> Properties</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+    <!-- end header  -->
+
+    <!-- Start section -->
+    <section class=" Properties">
+        <div class="contener">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>اختيار </th>
+                        <th> اظهار التفاصيل </th>
+                        <th>الايجار الشهري </th>
+                        <th>تفاصيل </th>
+                        <th>المدينة </th>
+                    </tr>
+                </thead>
+
+            <tbody id="flats">
+                <tr>
+                    <td><input type="radio" name="radio"></td>
+                    <td><input type="checkbox" name="checkbox" class="showHideCheckbox1" ></td>
+                    <td name="sall">80,000,000</td>
+                    <td name="det">شقة مساحة 120م</td>
+                    <td name="city">دمشق</td>
+                </tr>
+                <tr class="hid1" style="display: none;">
+                    <td colspan="5">   
+                        <div class="more-info">
+                            <ul class="txt">
+                                <li name="aria"> المنطقة: ركن الدين </li>
+                                <li name="gar"> متوفر كراج: يوجد </li>
+                                <li name="flppr"> الطابق: الرابع </li>
+                                <li name="blkon"> مساحة بلكون : 16م </li>
+                                <li name="stuf"> مفروشة: نعم </li>
+                                <li name="haveingType"> الملكية: طابو </li>
+                            </ul>
+                            <div>
+                                <img src="./imge/0fa6493041678515cb0b17514172a46c.jpg" alt="" >
+                                <img src="./imge/مخطط (15).jpg" alt="" >
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="radio"></td>
+                    <td><input type="checkbox" name="checkbox" class="showHideCheckbox2"></td>
+                    <td name="sall">30,000,000</td>
+                    <td name="det">شقة مساحة 180م</td>
+                    <td name="city">حلب</td>
+                </tr>
+        
+                <tr class="hid2" style="display: none;">
+                    <td colspan="5">
+                        <div class="more-info">
+                                <ul class="txt">
+                                    <li name="aria"> المنطقة: الشهباء  </li>
+                                    <li name="gar"> متوفر كراج: يوجد </li>
+                                    <li name="flppr"> الطابق: ارضي </li>
+                                    <li name="blkon"> مساحة بلكون : لايوجد </li>
+                                    <li name="stuf"> نعم </li>
+                                    <li name="haveingType"> الملكية: طابو </li>
+                                </ul>
+                                <div>
+                                    <img src="./imge/1a051bcf1c62c9c76c435e0c51e0440d.jpg" alt="">
+                                    <img src="./imge/dbff9b4d8a69efaf2e8e5bcdeea45b27.jpg" alt="">
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="radio" name="radio"></td>
+                    <td><input type="checkbox" name="checkbox" class="showHideCheckbox3"></td>
+                    <td name="sall">300,000,000</td>
+                    <td name="det">فيلا 600م</td>
+                    <td name="city">دمشق</td>
+                </tr>
+                <tr class="hid3" style="display: none;">
+                    <td colspan="5">
+                        <div class="more-info">
+                            <ul class="txt">
+                                <li name="aria"> المنطقة:  صبورة   </li>
+                                <li name="gar"> متوفر كراج: يوجد </li>
+                                <li name="flppr"> الطابق: ارضي </li>
+                                <li name="blkon"> مساحة بلكون : لايوجد </li>
+                                <li name="stuf"> مفروشة: نعم </li>
+                                <li name="haveingType"> الملكية: طابو </li>
+                            </ul>
+                            <div>
+                                <img src="./imge/e652f97f3bbc91c7ccd527be4799ef82.jpg" alt="">
+                                <img src="./imge/شقة(1).jpg" alt="">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>    
+                    <td><input type="radio" name="radio"></td>
+                    <td><input type="checkbox" name="checkbox" class="showHideCheckbox4"></td>
+                    <td name="sall">50,000,000</td>
+                    <td name="det">شقة مساحة 200م</td>
+                    <td name="city">حمص</td>
+                </tr>
+                <tr class="hid4" style="display: none;">
+                    <td colspan="5"> 
+                        <div class="more-info">
+                            <ul class="txt">
+                                <li name="aria"> المنطقة: الحضارة   </li>
+                                <li name="gar"> متوفر كراج: يوجد </li>
+                                <li name="flppr"> الطابق: رابع </li>
+                                <li name="blkon"> مساحة بلكون : 25م </li>
+                                <li name="stuf"> مفروشة: لا </li>
+                                <li name="haveingType"> الملكية: طابو </li>
+                            </ul>
+                            <div>
+                                <img src="./imge/مخطط (2).jpg" alt="">
+                                <img src="./imge/شقة (2).jpg" alt="">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="radio" name="radio"></td>
+                    <td><input type="checkbox" name="checkbox" class="showHideCheckbox5"></td>
+                    <td name="sall">60,000,000</td><td name="det">شقة مساحة 100م</td>
+                    <td name="city">دمشق</td>
+                </tr>
+                <tr class="hid5" style="display: none;">    
+                    <td colspan="5">
+                        <div class="more-info">
+                            <ul class="txt">
+                                <li name="aria"> المنطقة:  المالكي    </li>
+                                <li name="gar"> متوفر كراج: يوجد </li>
+                                <li name="flppr"> الطابق: ثاني </li>
+                                <li name="blkon"> مساحة بلكون : 12م </li>
+                                <li name="stuf"> مفروشة: لا </li>
+                                <li name="haveingType"> الملكية: طابو </li>
+                            </ul>
+                            <div>
+                                <img src="./imge/مخطط (3).jpg" alt="">
+                                <img src="./imge/شقة (4).jpg" alt="">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="radio" name="radio"></td>
+                    <td><input type="checkbox" name="checkbox" class="showHideCheckbox6"></td>
+                    <td name="sall">70,000,000</td>
+                    <td name="det">شقة مساحة 200م</td>
+                    <td name="city">دمشق</td>
+                </tr>
+
+                <tr class="hid6" style="display: none;">
+                    <td colspan="5">
+                        <div class="more-info">
+                            <ul class="txt">
+                                <li name="aria"> المنطقة:  ابو رمانة    </li>
+                                <li name="gar"> متوفر كراج: يوجد </li>
+                                <li name="flppr"> الطابق: اول  </li>
+                                <li name="blkon"> مساحة بلكون : 20م </li>
+                                <li name="stuf"> مفروشة: نعم </li>
+                                <li name="haveingType"> الملكية: طابو </li>
+                            </ul>
+                            <div>
+                                <img src="./imge/مخطط (4).jpg" alt="">
+                                <img src="./imge/شقة (6).jpg" alt="">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="radio" name="radio"></td>
+                    <td><input type="checkbox" name="checkbox" class="showHideCheckbox7"></td>
+                    <td name="sall">14,000,000</td>
+                    <td name="det">شقة مساحة 150م</td>
+                    <td name="city">حلب</td>
+                </tr>
+
+                <tr class="hid7" style="display: none;">
+                    <td colspan="5">
+                        <div class="more-info">
+                            <ul class="txt">
+                                <li name="aria"> المنطقة: الإذاعة  </li>
+                                <li name="gar"> متوفر كراج: يوجد </li>
+                                <li name="flppr"> الطابق: ثاني </li>
+                                <li name="blkon"> مساحة بلكون : 12م </li>
+                                <li name="stuf"> مفروشة: لا </li>
+                                <li name="haveingType"> الملكية: طابو </li>
+                            </ul>
+                            <div>
+                                <img src="./imge/مخطط (5).jpg" alt="">
+                                <img src="./imge/شقة (7).jpg" alt="">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="radio" name="radio"></td>
+                    <td><input type="checkbox" name="checkbox" class="showHideCheckbox8"></td>
+                    <td name="sall">150,000,000</td>
+                    <td name="det">مزرعة 300م</td>
+                    <td name="city">دمشق</td>
+                </tr>
+
+                <tr class="hid8" style="display: none;">
+                    <td colspan="5">
+                        <div class="more-info">
+                            <ul class="txt">
+                                <li name="aria"> المنطقة: صبورة    </li>
+                                <li name="gar"> متوفر كراج: يوجد </li>
+                                <li name="flppr"> الطابق: طابقين</li>
+                                <li name="blkon"> مساحة بلكون : 30م </li>
+                                <li name="stuf"> مفروشة: لا </li>
+                                <li name="haveingType"> الملكية: طابو </li>
+                            </ul>
+                            <div>
+                                <img src="./imge/hom 6.jpg" alt="" >
+                                <img src="./imge/شقة (3).jpg" alt="" >
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="radio" name="radio"></td>
+                    <td><input type="checkbox" name="checkbox" class="showHideCheckbox9"></td>
+                    <td name="sall">60,000,000</td>
+                    <td name="det">شقة مساحة 100م</td>
+                    <td name="city">حلب</td>
+                </tr>
+
+                <tr class="hid9" style="display: none;">
+                    <td colspan="5">    
+                        <div class="more-info">
+                            <ul class="txt">
+                                <li name="aria"> المنطقة:  الفرقان    </li>
+                                <li name="gar"> متوفر كراج: يوجد </li>
+                                <li name="flppr"> الطابق: ثاني </li>
+                                <li name="blkon"> مساحة بلكون : 12م </li>
+                                <li name="stuf"> مفروشة: لا </li>
+                                <li name="haveingType"> الملكية: طابو </li>
+                            </ul>
+                            <div>
+                                <img src="./imge/مخطط (3).jpg" alt="">
+                                <img src="./imge/شقة (4).jpg" alt="">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><input type="radio" name="radio"></td>
+                    <td><input type="checkbox" name="checkbox" class="showHideCheckbox10"</td>
+                    <td name="sall">65,000,000</td>
+                    <td name="det">شقة مساحة 200م</td>
+                    <td name="city">دمشق</td>
+                </tr>
+
+                <tr class="hid10" style="display: none;"> 
+                    <td colspan="5">    
+                        <div class="more-info">
+                            <ul class="txt">
+                                <li name="aria"> المنطقة:  كفرسوسة   </li>
+                                <li name="gar"> متوفر كراج: يوجد </li>
+                                <li name="flppr"> الطابق: رابع </li>
+                                <li name="blkon"> مساحة بلكون : 10م </li>
+                                <li name="stuf"> مفروشة: لا </li>
+                                <li name="haveingType"> الملكية: طابو </li>
+                            </ul>
+                            <div>
+                                <img src="./imge/مخطط (2).jpg" alt="">
+                                <img src="./imge/شقة (2).jpg" alt="">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+
+<form class="form"  onsubmit="RR(name1.value,num_ID.value,num.value,email.value,captcha-button.value)">
+        <div>
+            <div class="customer">
+                <h1><b>معلومات الزبون</b></h1>
+            </div>
+            <table class="table3" border="2">
+                <tr>
+                    <td colspan="2">
+                        <label for="name1"></label>
+                        <input type="text" id="name1" placeholder="الاسم باللغة العربية"><br>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="num_ID"></label>
+                        <input type="text" id="num_ID" placeholder="الرقم الوطني"><br>
+
+                    </td>
+                    <td>
+                        <label for="num"></label>
+                        <input type="tel" id="num" placeholder="رقم الموبايل"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email"></label>
+                        <input type="email" id="email" placeholder="إيميل"><br>
+                    </td>
+                    <td > 
+                        <label for="date"></label>
+                        <input type="date" id="date"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <div class="captcha">
+                            <button class="captcha-button" id="refresh-captcha-btn" onclick="refreshCaptcha(event)">تحديث</button>
+                            <h3 id="captcha"></h3>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" id="cap"  placeholder="ادخل الرمز الذي في الاعلى"><br>
+                    </td>
+                </tr>
+            </table>
+            <button class="btn2" type="submit" onclick="RR(name1.value, num_ID.value,num.value ,email.value ,cap.value)">ارسال</button>
+        </div>
+    </form>
+    <button class="btn1" disabled>متابعة</button><br> <br>
+
+<script src="./myFunctions.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="jquery-3.7.1.js"></script>
+</body>
+
+</html> 
