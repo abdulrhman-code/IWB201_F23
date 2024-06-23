@@ -150,6 +150,7 @@ a {
   color: #0099cc; /* lighter blue color on hover */
   text-decoration: underline;
 }
+
 @media (max-width: 768px) {
 .box {
         display: flex;
