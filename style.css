@@ -132,7 +132,15 @@ a {
     background: #1cd8d2;
     color: white;
 }
+.WEBLink{
+  text-decoration: none;
+  color: #00698f; 
+}
 
+.WEBLink:hover {
+  color: #0099cc; /* lighter blue color on hover */
+  text-decoration: underline;
+}
 .box {
     display: flex;
     align-items: center;
